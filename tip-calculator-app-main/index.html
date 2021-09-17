@@ -1,0 +1,115 @@
+</html>
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Tip Calculator</title>
+</head>
+
+<body>
+	<section class="bg-l-gray-cyan bg-container">
+		<div>
+			<h1 class="p-5 mb-5 text-d-gray-cyan fw-bold">SPLI <br>TTER</h1>
+		</div>
+		<div class="container bg-white rounded-4">
+			<div class="p-3 p-sm-5 row flex-column flex-sm-row">
+				<div class="col-sm-6 pe-sm-5">
+					<form action="">
+						<div class="d-flex justify-content-between">
+							<label class="form-label text-d-gray-cyan fw-bold">Bill</label>
+							<label class="form-label text-danger fw-bold label-danger-bill d-none">Can't be zero</label>
+						</div>
+						<div class="mb-3 input-group-form">
+							<span class="p-3 border-0 input-group-text bg-l2-gray-cyan" id="basic-addon1"><img
+									src="images/icon-dollar.svg" alt="" srcset="" class=""></span>
+							<input type="text"
+								class="p-3 border-0 form-control text-end fs-2 bg-l2-gray-cyan text-dark-cyan fw-bold"
+								aria-label="Username" aria-describedby="basic-addon1" id="bill" oninput="getBill()"
+								placeholder="0">
+						</div>
+					</form>
+					<div class="my-5">
+						<label class="form-label text-d-gray-cyan fw-bold">Select Tip %</label>
+						<div class="row gy-3">
+							<div class="col-sm-4 col-6">
+								<button
+									class="px-3 py-2 border-0 rounded bg-dark-cyan rounded-3 w-100 tip-box">5%</button>
+							</div>
+							<div class="col-sm-4 col-6"><button
+									class="px-4 py-2 border-0 rounded bg-dark-cyan rounded-3 w-100 tip-box">10%</button>
+							</div>
+							<div class="col-sm-4 col-6"><button
+									class="px-4 py-2 border-0 rounded bg-dark-cyan rounded-3 w-100 tip-box">15%</button>
+							</div>
+							<div class="col-sm-4 col-6"><button
+									class="px-4 py-2 border-0 rounded bg-dark-cyan rounded-3 w-100 tip-box">25%</button>
+							</div>
+							<div class="col-sm-4 col-6"><button
+									class="px-4 py-2 border-0 rounded bg-dark-cyan rounded-3 w-100 tip-box">50%</button>
+							</div>
+							<div class="col-sm-4 col-6"><input type="text"
+									class="px-4 py-2 border-0 text-end form-control fs-2 bg-l2-gray-cyan text-dark-cyan fw-bold"
+									aria-label="Username" aria-describedby="basic-addon1" placeholder="Custom"
+									id="custom-box" oninput="getCustomBox()">
+							</div>
+						</div>
+					</div>
+					<form action="">
+						<div class="d-flex justify-content-between">
+							<label class="form-label text-d-gray-cyan fw-bold">Number of People</label>
+							<label class="form-label text-danger fw-bold label-danger-people d-none">Can't be
+								zero</label>
+						</div>
+						<div class="mb-3 input-group-form">
+							<span class="p-3 border-0 input-group-text bg-l2-gray-cyan" id="basic-addon1"><img
+									src="images/icon-person.svg" alt="" srcset="" class=""></span>
+							<input type="text"
+								class="p-3 border-0 form-control text-end fs-2 bg-l2-gray-cyan text-dark-cyan fw-bold"
+								aria-label="Username" aria-describedby="basic-addon1" id="number-of-p"
+								oninput="getNumberOfP()" placeholder="0">
+						</div>
+					</form>
+				</div>
+				<div class="p-5 col-sm-6 bg-dark-cyan rounded-4 d-flex flex-column justify-content-between">
+					<div>
+						<div class="d-flex justify-content-between align-items-center">
+							<div>
+								<h4 class="text-white">Tip Amount</h4>
+								<p class="text-l-gray-cyan">/ person</p>
+							</div>
+							<div>
+								<h1 class="display-2 text-cyan" id="tip-amount">$4.27</h1>
+							</div>
+						</div>
+						<div class="mt-5 d-flex justify-content-between align-items-center">
+							<div>
+								<h4 class="text-white">Total</h4>
+								<p class="text-l-gray-cyan">/ person</p>
+							</div>
+							<div>
+								<h1 class="display-2 text-cyan" id="total">$32.27</h1>
+							</div>
+						</div>
+					</div>
+					<button class="py-3 border-0 rounded bg-cyan text-dark-cyan rounded-3 fw-bold fs-4 btn"
+						id="reset-btn">RESET</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+	</script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
