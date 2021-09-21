@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+	font-family: 'Rubik', sans-serif;
+	color: #ffff;
+	font-size: 18px;
+}
+
+.bg-blue {
+	background-color: hsl(246, 80%, 60%);
+}
+
+/* Work */
+.bg-light-red {
+	background: hsl(15, 100%, 70%);
+	z-index: 100;
+}
+
+/* Play */
+.bg-soft-blue {
+	background: hsl(195, 74%, 62%);
+}
+
+/* Light Red */
+.bg-light-red-s {
+	background: hsl(348, 100%, 68%);
+}
+
+/* Exercies */
+.bg-lime-green {
+	background: hsl(145, 58%, 55%);
+}
+
+/* SOcial */
+.bg-violet {
+	background: hsl(264, 64%, 52%);
+}
+
+/* Self-Care */
+.bg-soft-orange {
+	background: hsl(43, 84%, 65%);
+}
+
+.bg-very-dark-blue {
+	background: hsl(226, 43%, 10%);
+	height: 100vh;
+}
+
+.bg-dark-blue {
+	background: hsl(235, 46%, 20%);
+}
+
+.bg-desaturated-blue {
+	background: hsl(235, 45%, 61%);
+}
+
+.bg-pale-blue {
+	background: hsl(236, 100%, 87%);
+}
+
+.text-pale-blue {
+	color: hsl(236, 100%, 87%);
+}
+
+.center-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-card {
+	width: 100px;
+	height: 100px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+}
+
+
+.rounded-card {
+	border-radius: 20px;
+}
+
+.nav-link {
+	color: hsl(236, 100%, 87%);
+	opacity: 50%;
+}
+
+.nav-link:focus {
+	opacity: 100%;
+	color: hsl(236, 100%, 87%);
+}
+
+.nav-link:hover {
+	opacity: 100%;
+	color: hsl(236, 100%, 87%);
+}
+
+.nav-link-active {
+	opacity: 100%;
+	color: hsl(236, 100%, 87%);
+}
+
+.bg-card {
+	z-index: 1;
+	height: 8vh;
+	position: relative;
+}
+
+.icon-card {
+	position: absolute;
+	right: 1rem;
+	z-index: -1;
+}
+
+.card-content {
+	position: relative;
+	z-index: 11;
+	cursor: pointer;
+}
+
+.card-content:hover {
+	background: hsl(235, 45%, 61%);
+}
+
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.time-track-section {
+	min-height: 100vh;
+}
+
+.display-3 {
+	font-weight: 500;
+	margin: auto 0;
+}
+
+p {
+	margin: auto 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.time-track-section {
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+		height: 100%;
+	}
+
+	.img-card {
+		height: 60px;
+		width: 60px;
+		margin-right: 0.5rem;
+	}
+
+	.display-4 {
+		font-size: 1.75rem;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: center;
+		padding: 0.5rem;
+	}
+
+	.hrs {
+		display: flex;
+		justify-content: space-between;
+		/* align-items: center; */
+	}
+
+	.display-3 {
+		font-size: 1.75rem;
+	}
+}
