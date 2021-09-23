@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+.bg-blue {
+	background-color: hsl(246, 80%, 60%);
+}
+
+/* Work */
+.bg-light-red {
+	background: hsl(15, 100%, 70%);
+}
+
+/* Play */
+.bg-soft-blue {
+	background: hsl(195, 74%, 62%);
+}
+
+/* Light Red */
+.bg-light-red-s {
+	background: hsl(348, 100%, 68%);
+}
+
+/* Exercies */
+.bg-lime-green {
+	background: hsl(145, 58%, 55%);
+}
+
+/* SOcial */
+.bg-violet {
+	background: hsl(264, 64%, 52%);
+}
+
+/* Self-Care */
+.bg-soft-orange {
+	background: hsl(43, 84%, 65%);
+}
+
+.bg-very-dark-blue {
+	background: hsl(226, 43%, 10%);
+}
+
+.bg-dark-blue {
+	background: hsl(235, 46%, 20%);
+}
+
+.bg-desaturated-blue {
+	background: hsl(235, 45%, 61%);
+}
+
+.bg-pale-blue {
+	background: hsl(236, 100%, 87%);
+}
