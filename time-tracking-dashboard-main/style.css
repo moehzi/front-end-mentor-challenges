@@ -115,15 +115,20 @@ body {
 .card-content {
 	position: relative;
 	z-index: 11;
+	cursor: pointer;
+}
 
+.card-content:hover {
+	background: hsl(235, 45%, 61%);
 }
 
 .dot {
 	height: 5px;
 	width: 5px;
-	background-color: #bbb;
+	background-color: #fff;
 	border-radius: 50%;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .time-track-section {
@@ -138,6 +143,7 @@ body {
 p {
 	margin: auto 0;
 }
+
 
 @media only screen and (max-width: 768px) {
 	.time-track-section {
@@ -160,6 +166,7 @@ p {
 	.nav {
 		display: flex;
 		justify-content: center;
+		padding: 0.5rem;
 	}
 
 	.hrs {

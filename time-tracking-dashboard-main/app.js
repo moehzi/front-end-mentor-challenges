@@ -123,9 +123,6 @@ function getData(timeframe) {
 navLink.forEach((element) => {
   element.addEventListener("click", function () {
     navLink.forEach((item) => {
-      console.log(element);
-      console.log(item);
-      item.classList.add("transition-content");
       element.classList.add("nav-link-active");
       item.classList.remove("nav-link-active");
     });
