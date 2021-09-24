@@ -2,6 +2,8 @@
 
 body {
 	font-family: 'Rubik', sans-serif;
+	color: #ffff;
+	font-size: 18px;
 }
 
 .bg-blue {
@@ -40,6 +42,7 @@ body {
 
 .bg-very-dark-blue {
 	background: hsl(226, 43%, 10%);
+	height: 100vh;
 }
 
 .bg-dark-blue {
@@ -52,4 +55,35 @@ body {
 
 .bg-pale-blue {
 	background: hsl(236, 100%, 87%);
+}
+
+.text-pale-blue {
+	color: hsl(236, 100%, 87%);
+}
+
+.center-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-card {
+	width: 100px;
+	height: 100px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+}
+
+
+.rounded-card {
+	border-radius: 20px;
+}
+
+.nav-link {
+	color: hsl(236, 100%, 87%);
+	opacity: 50%;
+}
+
+.nav-link-active {
+	opacity: 100%;
 }
