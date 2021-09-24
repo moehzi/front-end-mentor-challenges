@@ -13,6 +13,7 @@ body {
 /* Work */
 .bg-light-red {
 	background: hsl(15, 100%, 70%);
+	z-index: 100;
 }
 
 /* Play */
@@ -86,4 +87,30 @@ body {
 
 .nav-link-active {
 	opacity: 100%;
+}
+
+.bg-card {
+	z-index: 1;
+	height: 8vh;
+	position: relative;
+}
+
+.icon-card {
+	position: absolute;
+	right: 1rem;
+	z-index: -1;
+}
+
+.card-content {
+	position: relative;
+	z-index: 11;
+
+}
+
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
 }
