@@ -125,3 +125,50 @@ body {
 	border-radius: 50%;
 	display: inline-block;
 }
+
+.time-track-section {
+	min-height: 100vh;
+}
+
+.display-3 {
+	font-weight: 500;
+	margin: auto 0;
+}
+
+p {
+	margin: auto 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.time-track-section {
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+		height: 100%;
+	}
+
+	.img-card {
+		height: 60px;
+		width: 60px;
+		margin-right: 0.5rem;
+	}
+
+	.display-4 {
+		font-size: 1.75rem;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: center;
+	}
+
+	.hrs {
+		display: flex;
+		justify-content: space-between;
+		/* align-items: center; */
+	}
+
+	.display-3 {
+		font-size: 1.75rem;
+	}
+}

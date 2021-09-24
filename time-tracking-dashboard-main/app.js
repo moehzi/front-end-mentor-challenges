@@ -106,6 +106,7 @@ const titles = document.querySelectorAll(".title");
 const current = document.querySelectorAll(".current");
 const previous = document.querySelectorAll(".previous");
 const navLink = document.querySelectorAll(".nav-link");
+const cardContent = document.querySelectorAll(".card-content");
 init();
 function init() {
   getData("weekly");
@@ -124,6 +125,7 @@ navLink.forEach((element) => {
     navLink.forEach((item) => {
       console.log(element);
       console.log(item);
+      item.classList.add("transition-content");
       element.classList.add("nav-link-active");
       item.classList.remove("nav-link-active");
     });
