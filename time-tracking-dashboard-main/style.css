@@ -85,8 +85,19 @@ body {
 	opacity: 50%;
 }
 
+.nav-link:focus {
+	opacity: 100%;
+	color: hsl(236, 100%, 87%);
+}
+
+.nav-link:hover {
+	opacity: 100%;
+	color: hsl(236, 100%, 87%);
+}
+
 .nav-link-active {
 	opacity: 100%;
+	color: hsl(236, 100%, 87%);
 }
 
 .bg-card {
